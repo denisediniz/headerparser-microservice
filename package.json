@@ -4,7 +4,7 @@
   "description": "Headerparser microservice",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,5 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
   }
 }
